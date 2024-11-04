@@ -1,38 +1,47 @@
 const questions = [
     {
-        question: "Wich is largest animal in the world?",
+        question: "What is the country with the largest population in the world?",
         answers: [
-            {text: "Shark", correct: false},
-            {text: "Blue whale", correct: true},
-            {text: "Elephant", correct: false},
-            {text: "Giraffe", correct: false},
+            {text: "United States", correct: false},
+            {text: "India", correct: true},
+            {text: "China", correct: false},
+            {text: "Mexico", correct: false},
         ]
     },
     {
-        question: "Wich is the smallest country in the world?",
+        question: "What is the largest country in the world?",
         answers: [
-            {text: "Vatican City", correct: true},
-            {text: "Buthan", correct: false},
-            {text: "Nepal", correct: false},
-            {text: "Shri Lanka", correct: false},
+            {text: "Russia", correct: true},
+            {text: "Canada", correct: false},
+            {text: "India", correct: false},
+            {text: "China", correct: false},
         ]      
     },
     {
-        question: "Which is the largest desert in the world?",
+        question: "What is the fastest land animal in the world?",
         answers: [
-            {text: "Kalahari", correct: false},
-            {text: "Gobi", correct: false},
-            {text: "Sahara", correct: false},
-            {text: "Antarctica", correct: true},
+            {text: "Tiger", correct: false},
+            {text: "Wolf", correct: false},
+            {text: "Rabbit", correct: false},
+            {text: "Cheetah", correct: true},
         ]
     },
     {
-        question: "Wich is the smallest continent in the world?",
+        question: "What is the smallest continent in the world?",
         answers: [
             {text: "Asia", correct: false},
             {text: "Australia", correct: true},
-            {text: "Arctic", correct: false},
+            {text: "America", correct: false},
             {text: "Africa", correct: false},
+        ]
+    },
+    {
+        question: "What is the coldest place on earth?",
+        answers: [
+            {text: "Alaska", correct: false},
+            {text: "Antarctica", correct: true},
+            {text: "Greenland", correct: false},
+            {text: "Siberia", correct: false},
         ]
     }
 ];
